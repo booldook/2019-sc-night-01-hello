@@ -1,0 +1,11 @@
+/* 자식선택자 : > */
+/* .nav-wrap > div {border: 1px solid red; font-size: 36px;} */
+/* 자손선택자 : 스페이스 */
+/* .nav-wrap div {background-color: yellowgreen;} */
+/* .nav-wrap > div > div {background-color: teal;} */
+
+.top-nav {background-color: #000; color: #f00;}
+.nav-lt {float: left;}
+.nav-rt {float: right;}
+.cls {clear: both;}
+

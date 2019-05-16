@@ -4,8 +4,14 @@
 /* .nav-wrap div {background-color: yellowgreen;} */
 /* .nav-wrap > div > div {background-color: teal;} */
 
-.top-nav {background-color: #000; color: #f00;}
-.nav-lt {float: left;}
-.nav-rt {float: right;}
-.cls {clear: both;}
+.top-nav {background-color: #000; color: #fff;}
+	.nav-lt {float: left;}
+		.nav-home {float: left; padding: 16px 24px;}
+		.nav-home:hover {background-color: #ccc; color: #000; cursor: pointer;}
+		.nav-wrap {float: left;}
+			.nav-wrap > div {float: left; padding: 16px 24px;}
+			.nav-wrap > div:hover {background-color: #ccc; color: #000; cursor: pointer;}
+	.nav-rt {float: right; padding: 16px 24px;}
+	.nav-rt:hover {background-color: #f20; cursor: pointer;}
+	.cls {clear: both;}
 

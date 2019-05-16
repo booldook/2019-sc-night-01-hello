@@ -1,0 +1,12 @@
+/* 공통사항 */
+.nav-hover:hover {background-color: #ccc; color: #000;}
+.nav-hover-orange:hover {background-color: #f20;}
+
+/* 상단네비 */
+.top-nav {background-color: #000; color: #fff;}
+.top-nav > .nav-lt {float: left;}
+.top-nav > .nav-rt {float: right; padding: 16px 24px;}
+.top-nav > .nav-lt div {float: left;}
+.top-nav > .nav-lt > .nav-home {padding: 16px 24px;}
+.top-nav > .nav-lt > .nav-wrap > div {padding: 16px 24px;}
+/* .top-nav:after {display: block; content: ""; clear: both;} */

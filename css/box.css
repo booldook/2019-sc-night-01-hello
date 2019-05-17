@@ -1,2 +1,2 @@
-.wrap {width: 100%; max-width:1200px; min-width:1000px; height: 600px; border: 50px solid #f00; font-size: 50px; text-align: center; margin: auto;}
-.box {width: 400px; height: 400px; border: 10px solid #00f; margin: auto;}
+.wrap {width: 100%; max-width:1200px; min-width:800px; height: 600px; border: 10px solid #f00; font-size: 50px; text-align: left; margin: auto; padding: 0px;}
+.box {width: 400px; height: 400px; border: 10px solid #00f; padding: 20px; margin: 30px auto;}

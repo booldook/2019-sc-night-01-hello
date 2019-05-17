@@ -5,13 +5,18 @@
 /* .nav-wrap > div > div {background-color: teal;} */
 
 .top-nav {background-color: #000; color: #fff;}
-	.nav-lt {float: left;}
-		.nav-home {float: left; padding: 16px 24px;}
-		.nav-home:hover {background-color: #ccc; color: #000; cursor: pointer;}
-		.nav-wrap {float: left;}
-			.nav-wrap > div {float: left; padding: 16px 24px;}
-			.nav-wrap > div:hover {background-color: #ccc; color: #000; cursor: pointer;}
-	.nav-rt {float: right; padding: 16px 24px;}
-	.nav-rt:hover {background-color: #f20; cursor: pointer;}
-	.cls {clear: both;}
+.nav-lt {float: left;}
+	.nav-home {float: left; padding: 16px 24px;}
+	.nav-home:hover {background-color: #ccc; color: #000; cursor: pointer;}
+	.nav-wrap {float: left;}
+		.nav-wrap > div {float: left; padding: 16px 24px;}
+		.nav-wrap > div:hover {background-color: #ccc; color: #000; cursor: pointer;}
+.nav-rt {float: right; padding: 16px 24px;}
+.nav-rt:hover {background-color: #f20; cursor: pointer;}
+.cls {clear: both;}
+
+.test-wrap {background-color: red; color: #fff; font-size: 24px;}
+.test-wrap > .test-lt {float: left; border: 5px solid #000;}
+.test-wrap > .test-rt {float: right; border: 5px solid #000;}
+.test-wrap > div > div {float: left; padding: 16px;}
 

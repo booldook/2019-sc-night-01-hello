@@ -1,10 +1,12 @@
 /* 공통사항 */
+body {height: 5000px;}
 .wrap {width: 100%; max-width: 1920px; margin: auto;}
 .wrap2 {width: 100%; max-width: 800px; margin: auto; padding: 50px 0;}
 .nav-hover:hover {background-color: #ccc; color: #000;}
 .nav-hover-orange:hover {background-color: #f20;}
-.sec-tit {text-align: center;}
-.sec-tit2 {text-align: center; padding: 30px 0;}
+.sec-tit {text-align: center; font-weight: normal; letter-spacing: 8px;}
+.sec-tit2 {text-align: center; padding: 30px 0; color: #aaa;}
+.sec-p {text-align: justify;}
 
 /* 상단네비 */
 .top-nav {background-color: #000; color: #fff;}
@@ -15,4 +17,12 @@
 .top-nav > .nav-lt > .nav-wrap > div {padding: 16px 24px;}
 /* .top-nav:after {display: block; content: ""; clear: both;} */
 
-.bands {}
+.band {width: 33.33%; float: left; padding: 50px;}
+.band > :nth-child(1) {text-align: center; padding: 20px 0; font-size: 18px; color: #000;}
+
+.tours {background-color: #000;}
+.tours .sec-tit {color: #fff;}
+.cals {background-color: #f1f1f1;}
+.cals > .cal {padding: 12px; border-bottom: 1px solid #aaa;}
+.cals .rnd {background-color: #000; color: #fff; 
+	padding: 2px 10px; border-radius: 50%; float: right;}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Form 요소</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+	<div class="wrap">
+		<div class="tit">Form을 알아보자</div>
+		<form action="#" method="post" name="form1">
+			<!-- <table border="1" cellpadding="20" cellspacing="10" class="tbl"> -->
+			<table class="tbl">
+				<tr>
+					<td rowspan="2">가</td>
+					<td>나</td>
+					<td>다</td>
+				</tr>
+				<tr>
+					<td>나</td>
+					<td>다</td>
+				</tr>
+				<tr>
+					<td>가</td>
+					<td colspan="2">나</td>
+				</tr>
+			</table>
+			<table class="tbl">
+				<tr>
+					<td>가</td>
+					<td>나</td>
+					<td>다</td>
+					<td>라</td>
+				</tr>
+				<tr>
+					<td>가</td>
+					<td colspan="2" rowspan="2">나</td>
+					<td>라</td>
+				</tr>
+				<tr>
+					<td>가</td>
+					<td>라</td>
+				</tr>
+				<tr>
+					<td>가</td>
+					<td>나</td>
+					<td>다</td>
+					<td>라</td>
+				</tr>
+			</table>
+			<table class="tbl">
+				<thead>
+					<tr>
+						<th>이름</th>
+						<th>국어</th>
+						<th>영어</th>
+						<th>수학</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>홍길동</td>
+						<td>95점</td>
+						<td>90점</td>
+						<td>85점</td>
+					</tr>
+					<tr>
+						<td>홍길순</td>
+						<td>88점</td>
+						<td>90점</td>
+						<td>95점</td>
+					</tr>
+					<tr>
+						<td>홍길만</td>
+						<td>90점</td>
+						<td>90점</td>
+						<td>88점</td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+	</div>
+</body>
+</html>

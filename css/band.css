@@ -1,7 +1,7 @@
 /* 공통사항 */
 body {height: 5000px;}
 .wrap {width: 100%; max-width: 1920px; margin: auto;}
-.wrap2 {width: 100%; max-width: 800px; margin: auto; padding: 50px 0;}
+.wrap2 {width: 100%; max-width: 800px; margin: auto; padding: 100px 0;}
 .nav-hover:hover {background-color: #ccc; color: #000;}
 .nav-hover-orange:hover {background-color: #f20;}
 .sec-tit {text-align: center; font-weight: normal; letter-spacing: 8px;}
@@ -22,10 +22,23 @@ body {height: 5000px;}
 .tours {background-color: #000;}
 .tours .sec-tit {color: #fff;}
 .cals {background-color: #f1f1f1;}
-.cals > .cal {padding: 12px; border-bottom: 1px solid #aaa;}
+.cals > .cal {padding: 12px; border-bottom: 1px solid #aaa; color: #444;}
 .cals .rnd {background-color: #000; color: #fff; 
 	padding: 2px 10px; float: right; border-radius: 50%;}
 .cals .soldout {background-color: #f20; color: #fff; padding: 3px 6px;
 	margin-left: 30px;}
+.cities {margin-top: 30px;}
+.city {width: 32%; float: left; background-color: #f8f8f8;}
+.city:nth-child(2) {margin: 0 2%;}
+.city > div {background-color: #000;}
+.city > div > img {display: block;}
+.city > div > img:hover {opacity: 0.8;}
+.city > ul {padding: 16px;}
+.city > ul > li:not(:last-child) {margin-bottom: 16px;}
+.city > ul > :nth-child(1) {color: #000; font-weight: bold;}
+.city > ul > :nth-child(2) {color: #444; font-size: 18px;}
+.city > ul > :nth-child(3) {color: #000;}
+.city > ul > :nth-child(4) {background-color: #000; display: inline-block; color: #fff; padding: 12px; cursor: pointer;}
+.city > ul > :nth-child(4):hover {background-color: #bbb; color: #000;}
 
 /* block, inline, inline-block	 */

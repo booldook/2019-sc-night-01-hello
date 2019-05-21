@@ -5,7 +5,7 @@ body {height: 5000px;}
 .nav-hover:hover {background-color: #ccc; color: #000;}
 .nav-hover-orange:hover {background-color: #f20;}
 .sec-tit {text-align: center; font-weight: normal; letter-spacing: 8px;}
-.sec-tit2 {text-align: center; padding: 30px 0; color: #aaa;}
+.sec-tit2 {text-align: center; padding: 30px 0; color: #aaa; font-style: italic;}
 .sec-p {text-align: justify;}
 
 /* 상단네비 */
@@ -17,12 +17,15 @@ body {height: 5000px;}
 .top-nav > .nav-lt > .nav-wrap > div {padding: 16px 24px;}
 /* .top-nav:after {display: block; content: ""; clear: both;} */
 
-.band {width: 33.33%; float: left; padding: 50px;}
+.band {width: 33.33%; float: left; padding: 40px;}
 .band > :nth-child(1) {text-align: center; padding: 20px 0; font-size: 18px; color: #000;}
-
 .tours {background-color: #000;}
 .tours .sec-tit {color: #fff;}
 .cals {background-color: #f1f1f1;}
 .cals > .cal {padding: 12px; border-bottom: 1px solid #aaa;}
 .cals .rnd {background-color: #000; color: #fff; 
-	padding: 2px 10px; border-radius: 50%; float: right;}
+	padding: 2px 10px; float: right; border-radius: 50%;}
+.cals .soldout {background-color: #f20; color: #fff; padding: 3px 6px;
+	margin-left: 30px;}
+
+/* block, inline, inline-block	 */

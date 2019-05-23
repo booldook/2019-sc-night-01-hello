@@ -1,5 +1,4 @@
 /* 공통사항 */
-body {height: 5000px;}
 .wrap {width: 100%; max-width: 1920px; margin: auto;}
 .wrap2 {width: 100%; max-width: 800px; margin: auto; padding: 100px 0;}
 .nav-hover:hover {background-color: #ccc; color: #000;}
@@ -42,3 +41,19 @@ body {height: 5000px;}
 .city > ul > :nth-child(4):hover {background-color: #bbb; color: #000;}
 
 /* block, inline, inline-block	 */
+
+.contact {margin-top: 50px;}
+.contact > * {width: 50%; float: left;}
+.contact > ul > li {padding: 10px 0;}
+.contact > ul > li > span:first-child {width: 30px;}
+.contact .form-div {padding: 6px 0;}
+.contact input {padding: 10px;}
+.contact .form-div:nth-child(1) > input:first-child {width: 48.5%; float: left;}
+.contact .form-div:nth-child(1) > input:last-child {width: 48.5%; float: right;}
+.contact .form-div:nth-child(2) > input {width: 100%;}
+.contact .form-div:nth-child(3) {text-align: right;}
+.contact .bt-send {padding: 12px 16px; background-color: #000; color: #fff; cursor: pointer;}
+.contact .bt-send:hover {background-color: #ccc; color: #000;}
+
+.footer {text-align: center; color: #999; padding: 50px 0;}
+.footer > .sns-link {margin-bottom:20px; font-size: 24px;}

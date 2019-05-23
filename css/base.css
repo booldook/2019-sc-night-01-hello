@@ -5,7 +5,8 @@ ul, ol, li {list-style: none;}
 img {margin: 0; padding: 0; border: 0;}
 table, thead, tbody, tfoot, tr, td, th {border: 0; padding: 0; margin: 0;}
 table {border-spacing: 0; border-collapse: collapse;}
-
+input {box-sizing: border-box;}
+button {border: none;}
 
 /* 공통사항 */
 .clear:after {display: block; content: ""; clear: both;}

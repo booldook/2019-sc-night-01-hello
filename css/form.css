@@ -8,3 +8,15 @@
 .tbl td:nth-child(2) {width: 25%;}
 .tbl td:nth-child(3) {width: 25%;}
 .tbl td:nth-child(4) {width: 25%;}
+
+
+.join-form {margin-bottom: 200px;}
+.tbl-join {width: 100%; border-top: 1px solid #ccc; margin-top: 12px;}
+.tbl-join td {padding: 12px; border-bottom: 1px solid #ccc;}
+.tbl-join td:nth-child(1) {width: 25%;}
+.tbl-join td:nth-child(2) {width: 75%;}
+.tbl-join input[type='text'], .tbl-join input[type='password']  
+{padding: 8px; border: 1px solid #ccc;}
+
+.tbl-join input[type='button'] {padding: 7px; background-color: #333; color: #fff; border: none;}
+.tbl-join input[type='button']:hover {background-color: #ccc; color: #222;}

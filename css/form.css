@@ -15,8 +15,24 @@
 .tbl-join td {padding: 12px; border-bottom: 1px solid #ccc;}
 .tbl-join td:nth-child(1) {width: 25%;}
 .tbl-join td:nth-child(2) {width: 75%;}
+/*
 .tbl-join input[type='text'], .tbl-join input[type='password']  
 {padding: 8px; border: 1px solid #ccc;}
 
 .tbl-join input[type='button'] {padding: 7px; background-color: #333; color: #fff; border: none;}
 .tbl-join input[type='button']:hover {background-color: #ccc; color: #222;}
+*/
+button {padding: 7px; border: none;}
+.tbl-join input, .tbl-join select {padding: 8px; border: 1px solid #ccc;}
+.tbl-join button {background-color: #333; color: #fff;}
+.tbl-join button:hover {background-color: #ccc; color: #222;}
+.tbl-join label {margin-right: 20px;}
+.tbl-join .hp {width: 80px;}
+.tbl-join textarea {width: 96%; height: 300px; margin: 0 2%; padding: 30px;}
+
+.bts {margin-top: 12px; text-align: center;}
+.bts button[type='submit'] {background-color: #06f; color: #fff;}
+.bts button[type='submit']:hover {background-color: #fff; color: #333;}
+.bts button[type='reset'] {background-color: #f00; color: #fff;}
+.bts button[type='reset']:hover {background-color: #fff; color: #333;}
+

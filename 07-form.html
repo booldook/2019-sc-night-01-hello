@@ -23,8 +23,8 @@
 					<tr>
 						<td>아이디</td>
 						<td>
-							<input type="text" name="">
-							<input type="button" value="아이디 중복 확인">
+							<input type="text" name="" placeholder="아이디">
+							<button type="button">아이디 중복 확인</button>
 						</td>
 					</tr>
 					<tr>
@@ -35,11 +35,74 @@
 						<td>패스워드 확인</td>
 						<td><input type="password" name=""></td>
 					</tr>
+					<tr>
+						<td>성별</td>
+						<td>
+							<label><input type="radio" name="gender" checked>남자</label>
+							<label><input type="radio" name="gender">여자</label>
+						</td>
+					</tr>
+					<tr>
+						<td>국적</td>
+						<td>
+							<input type="radio" id="country1" name="country" checked>
+							<label for="country1">내국인</label>
+							<input type="radio" id="country2" name="country">
+							<label for="country2">외국인</label>
+						</td>
+					</tr>
+					<tr>
+						<td>가입경로</td>
+						<td>
+							<input type="checkbox" id="route1" name="route">
+							<label for="route1">인터넷</label>
+							<input type="checkbox" id="route2" name="route">
+							<label for="route2">신문</label>
+							<input type="checkbox" id="route3" name="route">
+							<label for="route3">지인소개</label>
+							<input type="checkbox" id="route4" name="route">
+							<label for="route4">추천인</label>
+						</td>
+					</tr>
+					<tr>
+						<td>휴대폰번호</td>
+						<td>
+							<select name="hp1">
+								<option value="">선택하세요</option>
+								<option value="010" selected>010</option>
+								<option value="011">011</option>
+								<option value="016">016</option>
+								<option value="017">017</option>
+								<option value="018">018</option>
+								<option value="019">019</option>
+							</select> - 
+							<input type="text" maxlength="4" class="hp"> - 
+							<input type="text" maxlength="4" class="hp">
+						</td>
+					</tr>
+					<tr>
+						<td>첨부파일</td>
+						<td>
+							<input type="file">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<textarea class="summary" placeholder="남기실 말을 작성해 주세요."></textarea>
+						</td>
+					</tr>
+					<!-- <tr>
+						<td>
+							<input type="color">
+							<input type="date">
+							<input type="datetime-local">
+						</td>
+					</tr> -->
 				</tbody>
 			</table>
 			<div class="bts">
-				<input type="submit" value="가입">
-				<input type="reset" value="재작성">
+				<button type="submit">가입</button>
+				<button type="reset">재작성</button>
 			</div>
 		</form>
 		<!-- <table border="1" cellpadding="20" cellspacing="10" class="tbl"> -->

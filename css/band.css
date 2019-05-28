@@ -8,13 +8,16 @@
 .sec-p {text-align: justify;}
 
 /* 상단네비 */
-.top-nav {background-color: #000; color: #fff;}
+.top-nav {background-color: #000; color: #fff; position: fixed; width: 100%;}
 .top-nav > .nav-lt {float: left;}
 .top-nav > .nav-rt {float: right; padding: 16px 24px;}
 .top-nav > .nav-lt div {float: left;}
 .top-nav > .nav-lt > .nav-home {padding: 16px 24px;}
 .top-nav > .nav-lt > .nav-wrap > div {padding: 16px 24px;}
 /* .top-nav:after {display: block; content: ""; clear: both;} */
+
+.bans {padding-top: 40px; position: relative;}
+.bans > .slogan {position: absolute; color: #fff; bottom: 30px; text-align: center; width: 100%;}
 
 .band {width: 33.33%; float: left; padding: 40px;}
 .band > :nth-child(1) {text-align: center; padding: 20px 0; font-size: 18px; color: #000;}

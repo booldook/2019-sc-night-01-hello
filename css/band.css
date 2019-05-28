@@ -8,7 +8,7 @@
 .sec-p {text-align: justify;}
 
 /* 상단네비 */
-.top-nav {background-color: #000; color: #fff; position: fixed; width: 100%;}
+.top-nav {background-color: #000; color: #fff; z-index: 9999; position: fixed; width: 100%;}
 .top-nav > .nav-lt {float: left;}
 .top-nav > .nav-rt {float: right; padding: 16px 24px;}
 .top-nav > .nav-lt div {float: left;}

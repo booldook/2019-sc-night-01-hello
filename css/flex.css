@@ -1,0 +1,11 @@
+.wrap {width: 100%; height: 800px; max-width: 1200px; margin: auto; background-color: cadetblue;
+	display: flex; 
+	/* flex-start(default), flex-end, center, space-around, space-between */
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: flex-start;
+	flex-wrap: wrap;
+}
+
+.box {width: 200px; height: 200px; background-color: crimson; border: 2px solid cyan;}
+#box2 {height: 250px;}

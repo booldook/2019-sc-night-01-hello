@@ -1,15 +1,19 @@
-.wrap {width: 80%; height: 800px; border: 10px solid cadetblue; margin: 100px auto;
+.wrap {width: 1170px; border: 10px solid cadetblue; margin: 100px auto;
 	display: flex;
 	/* flex-direction: row|row-reverse|column|column-reverse */
 	flex-direction: row;
 	/* flex-wrap: nowrap|wrap */
 	flex-wrap: wrap;
 	/* justify-content: flex-start|flex-end|center|space-between|space-around|space-evenly */
-	justify-content: space-evenly;
+	justify-content: flex-start;
 	/* align-items: stretch|flex-start|flex-end|center|baseline */
 	align-items: flex-start;
 	/* align-content: flex-start|flex-end|center|space-between|space-around*/
-	align-content: space-between;
+	align-content: flex-start;
 }
 
-.box {width: 18%; border: 1px solid red;}
+.box {border: 1px solid red;
+	/* flex-grow: 1; flex-shrink: 1; flex-basis:28%; */
+	flex: 1 1 28%;
+}
+.box:nth-child(2) {flex-grow: 2;}

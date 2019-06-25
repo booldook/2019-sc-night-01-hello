@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>css 선택자</title>
+	<style>
+	/* internal 방식 */
+	/* https://www.w3schools.com/cssref/css_selectors.asp */
+	* {font-size: 50px;}
+	.box:not(:nth-child(1)) {border: 2px solid red;}
+	a {text-decoration: none;}
+	a:link, a:visited {color: red;}	
+	a:hover {color: orange;}	
+	a:active {color: aqua;}	
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<div class="boxes">
+			<div class="box">가나다</div>
+			<div class="box">라마바</div>
+			<div class="box">라마바</div>
+		</div>
+		<div class="boxes">
+			<div class="box">ABC</div>
+			<div class="box">DEF</div>
+			<div class="box">DEF</div>
+		</div>
+	</div>
+	<a href="https://google.com" target="_black">여기</a>를 누르면 구글로 갑니다.
+</body>
+</html>
